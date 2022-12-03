@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainSceneController4">
+   <children>
+      <Label layoutX="249.0" layoutY="31.0" prefHeight="37.0" prefWidth="107.0" text="Admin Login" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="128.0" text="Email :">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="email_adminlogin_tf" layoutX="118.0" layoutY="150.0" prefHeight="26.0" prefWidth="365.0" />
+      <Label layoutX="118.0" layoutY="184.0" text="Password:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="password_adminlogin_tf" layoutX="118.0" layoutY="208.0" prefHeight="26.0" prefWidth="365.0" />
+      <Button layoutX="269.0" layoutY="261.0" mnemonicParsing="false" onAction="#adminlogin_button" prefHeight="26.0" prefWidth="67.0" text="Login" />
+   </children>
+</AnchorPane>
